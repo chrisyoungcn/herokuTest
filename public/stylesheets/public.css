@@ -11,42 +11,37 @@ body {
   width: 100%; height: 100%; 
   margin: 0; padding: 0; border: 0;
   font-family: Verdana, Arial, Helvetica, sans-serif; 
-  font-size: 18px; line-height: 18px;
-    background-image: url('../images/wg-web-bg-5.png');
-    background-repeat: repeat-x;
+  font-size: 13px; line-height: 15px;
+  background: #EEE4B9;
 }
 img { border: none; }
 a { color: #8D0D19; }
 a:hover { color: #1A446C; }
 	
 #header { 
-	height: 70px; font-size: 14px;
-	margin: 0; padding: 0; text-align: left;
-    background-image: url('../images/blog-header-background.jpg');
-    background-size: 100%;
-    color: white;
+	height: 70px; 
+	margin: 0; padding: 0; text-align: left; 
+  background: #1A446C; color: #D4E6F4;
 }
 #header h1 { padding: 1em; margin: 0; }
 #main { 
 	height: 600px; width: 100%; 
 	margin: 0; padding: 0; 
-	
+	background: #EEE4B9;
 }
 #footer { 
 	clear: both;
 	height: 2em; margin: 0; padding: 1em; 
-	text-align: center; font-size: 14px;
-  background-image: url('../images/footerBg.png');
-    color: #1A446C;
+	text-align: center; 
+  background: #1A446C;  color: #D4E6F4;
 }
 
 /* Navigation */
 #navigation { 
 	float: left;
 	width: 150px; height: 100%; 
-	margin: 0; padding: 0 2em; font-size: 14px;
-    background-color:saddlebrown;
-	color: #D4E6F4; 
+	margin: 0; padding: 0 2em; 
+	color: #D4E6F4; background: #8D0D19;
 }
 #navigation a { color: #D4E6F4; text-decoration: none; }
 #navigation a:hover { color: #FFFFFF; }
@@ -60,17 +55,17 @@ ul.pages { padding-left: 2em; list-style: square; font-weight: normal; }
 #page { 
 	float: left; height: 100%;
 	padding-left: 2em; vertical-align: top; 
-	max-width: 1060px;
+	background: #EEE4B9;
 }
-#page h2 { color: #D4E6F4; margin-top: 1em;}
-#page h3 { color: #D4E6F4; }
+#page h2 { color: #8D0D19; margin-top: 1em;}
+#page h3 { color: #8D0D19; }
 .view-content {
 	margin: 1em; padding: 1em; border: 1px solid #999;
 }
 
 div.message { 
-	border: 2px solid #D4E6F4;
-	color: #D4E6F4; font-weight: bold;
+	border: 2px solid #8D0D19;
+	color: #8D0D19; font-weight: bold;
 	margin: 1em 0 ; padding: 1em; 
 }
 

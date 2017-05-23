@@ -9,15 +9,11 @@
 <div id="main">
   <div id="navigation">
 		<?php echo public_navigation($current_subject, $current_page); ?>
-      <a href="login.php">Log in</a>
   </div>
   <div id="page">
 		<?php if ($current_page) { ?>
 			
 			<h2><?php echo htmlentities($current_page["menu_name"]); ?></h2>
-			<?php echo "Headquarters: " . htmlentities($current_page["headquarters"]) . "<br/>"; ?>
-			<?php echo "Founded: " . htmlentities($current_page["founded_year"]) . "<br/>"; ?>
-			<?php echo "Founders: " . htmlentities($current_page["founders"]) . "<br/>"; ?>
 			<?php echo nl2br(htmlentities($current_page["content"])); ?>
 			
 		<?php } else { ?>

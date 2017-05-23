@@ -48,9 +48,6 @@
 		<?php } elseif ($current_page) { ?>
 			<h2>Manage Page</h2>
 			Menu name: <?php echo htmlentities($current_page["menu_name"]); ?><br />
-			Headquarters: <?php echo htmlentities($current_page["headquarters"]) . "<br/>"; ?>
-			Founded: <?php echo htmlentities($current_page["founded_year"]) . "<br/>"; ?>
-			Founders: <?php echo htmlentities($current_page["founders"]) . "<br/>"; ?>
 			Position: <?php echo $current_page["position"]; ?><br />
 			Visible: <?php echo $current_page["visible"] == 1 ? 'yes' : 'no'; ?><br />
 			Content:<br />
@@ -62,7 +59,6 @@
       <a href="edit_page.php?page=<?php echo urlencode($current_page['id']); ?>">Edit page</a>
 			
 		<?php } else { ?>
-        <br />
 			Please select a subject or a page.
 		<?php }?>
   </div>
